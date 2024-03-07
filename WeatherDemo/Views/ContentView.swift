@@ -14,7 +14,8 @@ struct ContentView: View {
         VStack {
             WelcomeView().environmentObject(locationManager)
         }
-        .background(.blue)
+        .background(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
+        .preferredColorScheme(.dark)
     }
 }
 
